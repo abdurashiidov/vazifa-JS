@@ -21,3 +21,4 @@
 //     finnally.textContent = ozgaruvchi
 // })
 
+const 
