@@ -30,6 +30,5 @@ let input = document.querySelector(".input")
 button1.addEventListener("click", () => {
     
 
-    
 })
 
