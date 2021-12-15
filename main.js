@@ -27,6 +27,12 @@ const button3 = document.querySelector(".button3")
 let heading = document.querySelector("heading")
 let input = document.querySelector(".input")
 
+
+    heading.addEventListener("change", () =>{
+        heading.textContent = input.value
+    })
+
+
 button1.addEventListener("click", () => {
     
 
