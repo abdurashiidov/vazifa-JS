@@ -26,13 +26,10 @@ const button2 = document.querySelector(".button2")
 const button3 = document.querySelector(".button3")
 let heading = document.querySelector("heading")
 let input = document.querySelector(".input")
-let result = document.querySelector(".result")
 
-console.log(result);
 
 button1.addEventListener("click", () => {
     natija1 = input.value * 3
-    natija1.textContent = result
-
-})
-
+    natija1.textContent = heading
+    
+})  
